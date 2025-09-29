@@ -10,7 +10,6 @@ all: analysis docs
 analysis: outputs/.analysis_done
 
 outputs/.analysis_done: $(R_SCRIPTS) $(DATA_FILES)
-	@mkdir -p paper/tables outputs
 	@echo "Running R analysis pipeline..."
 	Rscript run_all.R
 	@touch outputs/.analysis_done
