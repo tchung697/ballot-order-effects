@@ -1,4 +1,4 @@
-# The Ballot Order Effect in Taiwan's Legislative Elections, 2008--2020
+# ballot-order-effects
 
 This repository contains the data, code, and manuscript for the paper, "The Ballot Order Effect in Taiwan's Legislative Elections, 2008--2020."
 
