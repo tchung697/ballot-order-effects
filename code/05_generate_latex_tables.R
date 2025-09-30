@@ -117,7 +117,7 @@ output_file <- file.path("outputs", "tables", "randomization_results.tex")
 generate_latex_table(
   data = results_table,
   filename = output_file,
-  caption = "Randomization Inference Results for Ballot Order Effects",
+  caption = "Randomization Inference Results for Ballot Order Effects.",
   label = "randomization-results"
 )
 

@@ -414,7 +414,7 @@ naive comparison, fixed effects,
 and \gls{ipw} approaches. 
 Among the four election years,
 2016 shows the largest estimated effect.
-While naive estimates suggest substantial effects 
+While naive estimates suggest substantial effects,
 these disappear once we control for district size, 
 yielding point estimates near zero with 
 no statistical significance. 
@@ -452,21 +452,20 @@ cannot be rejected at the conventional 0.05 significance level.
 
 \input{../outputs/tables/randomization_results.tex}
 
-\cref{fig:randomization-distribution} displays
-the randomization distributions
-of the test statistic
-for each election year.
-Each panel shows the null distribution
-of the weighted difference-in-means statistic,
+
+\cref{fig:randomization-distribution} displays the randomization distributions 
+of the test statistic for each election year. 
+Each panel shows the null distribution of the weighted difference-in-means statistic,
 with the observed statistic indicated by a vertical red line.
-The $p$-value represents the proportion
-of simulated statistics
-at least as extreme as the observed value.
-In all years,
-the observed statistics fall well within
-the null distribution,
-resulting in large $p$-values
-and failure to reject the null hypothesis.
+The $p$-value is the proportion of simulated statistics 
+at least as extreme as the observed value. 
+In most years, the observed statistics lie near the center of the null distribution, 
+yielding large $p$-values. 
+In 2016, however, the observed statistic is displaced toward the tail, 
+with a two-sided $p$-value of about $0.15$. 
+This remains above conventional significance thresholds, 
+so we do not reject the null.
+
 
 \begin{figure}[htbp]
   \centering
